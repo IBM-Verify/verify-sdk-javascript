@@ -1,7 +1,7 @@
 {
   "name": "verify-privacy-examples",
   "version": "0.5.2",
-  "description": "Example apps to demonstrate integration with IBM Security Verify Privacy & Consent",
+  "description": "Example apps to demonstrate integration with IBM Verify Privacy & Consent",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

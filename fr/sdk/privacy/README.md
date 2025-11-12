@@ -1,7 +1,7 @@
-# IBM Security Verify Privacy SDK pour Javascript
+# IBM Verify Privacy SDK pour Javascript
 
 SDK de protection de la vie privée pour [Node](https://nodejs.org), rapide, simple et fondé sur des opinions
-qui exploite le moteur de confidentialité des données et de consentement d' IBM Security Verify.
+qui exploite le moteur de confidentialité des données et de consentement d' IBM Verify.
 
 ---
 
@@ -54,7 +54,7 @@ storeConsents = async (req, res) => {
 
 ## Prérequis
 
-* Inscrivez-vous à [IBM Security Verify Tenant](https://docs.verify.ibm.com/verify/docs/signing-up-for-a-free-trial).
+* Inscrivez-vous à [IBM Verify Tenant](https://docs.verify.ibm.com/verify/docs/signing-up-for-a-free-trial).
 * Si vous n'utilisez pas d'application OAuth/OIDC pour obtenir un jeton d'utilisateur/délégué, obtenez un jeton d'accès privilégié en configurant un [client API](https://docs.verify.ibm.com/verify/docs/create-api-client) avec les droits suivants.
    - Vérifier l'approbation de l'utilisation des données _pour évaluer l'utilisation des éléments de données demandés_
    - Récupérer les objectifs de protection de la vie privée et le consentement de l'utilisateur associé _afin de présenter une expérience complète de consentement de l'utilisateur_

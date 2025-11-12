@@ -1,6 +1,6 @@
-# IBM Security Verify SDK pour Javascript
+# IBM Verify SDK pour Javascript
 
-Ce dépôt est destiné au développement actif du SDK IBM Security Verify pour Javascript.
+Ce dépôt est destiné au développement actif du SDK IBM Verify pour Javascript.
 
 ## Mise en route
 
@@ -9,7 +9,7 @@ Pour commencer à utiliser un composant spécifique, consultez le fichier **READ
 ### Prérequis
 
 - [nœud](https://nodejs.org/en)v16.13.0 ou supérieur)
-- Un locataire valide de IBM Security Verify ou IBM Security Verify Access est requis.
+- Un locataire valide de IBM Verify ou IBM Verify Access est requis.
 
 ### Composants
 
@@ -18,7 +18,7 @@ Les versions de tous les paquets sont disponibles ici : [Communiqués de presse]
 Les composants suivants sont actuellement proposés dans le paquet.
 | Composant | Description |
 | ----------- | ----------- |
-| [Privacy](sdk/privacy) | Composant de protection de la vie privée simple, rapide, avec avis, qui s'appuie sur le moteur de protection des données et de consentement d' IBM Security Verify. |
+| [Privacy](sdk/privacy) | Composant de protection de la vie privée simple, rapide, avec avis, qui s'appuie sur le moteur de protection des données et de consentement d' IBM Verify. |
 
 ### Installation
 

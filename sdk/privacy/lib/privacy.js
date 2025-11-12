@@ -1,4 +1,4 @@
-// Copyright contributors to the IBM Security Verify Privacy SDK
+// Copyright contributors to the IBM Verify Privacy SDK
 // for JavaScript project
 
 const ConfigurationError = require('./errors/configurationError');
@@ -12,7 +12,7 @@ const debug = require('debug')('verify:privacy');
  */
 
 /**
- * Class representing the Privacy SDK for IBM Security Verify. Used to
+ * Class representing the Privacy SDK for IBM Verify. Used to
  * perform privacy assessment for attributes being requested and metadata
  * required to build consent experiences.
  *

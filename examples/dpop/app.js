@@ -10,7 +10,7 @@ const app = express();
 const key = fs.readFileSync('./key.pem');
 const cert = fs.readFileSync('./cert.pem');
 
-// Change these parameters according to your IBM Security Verify tenant
+// Change these parameters according to your IBM Verify tenant
 const clientId = "<your_clientid>"
 const clientSecret = "<your_clientsecret>"
 const authorizationHeader = "Basic " + Buffer.from(`${clientId}:${clientSecret}`).toString('base64')

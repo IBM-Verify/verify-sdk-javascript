@@ -12,7 +12,7 @@ The source code adheres to [Google Javascript](https://google.github.io/stylegui
 
 ## Issues and Questions
 
-If you encounter an issue, have a question or want to suggest an enhancement to the IBM Security Verify SDK, you are welcome to submit a [request](https://github.com/ibm-security-verify/verify-sdk-javascript/issues).
+If you encounter an issue, have a question or want to suggest an enhancement to the IBM Verify SDK, you are welcome to submit a [request](/issues).
 Before that, please search for similar issues. It's possible somebody has encountered this issue already.
 
 ## Pull Requests
@@ -20,15 +20,24 @@ Before that, please search for similar issues. It's possible somebody has encoun
 If you want to contribute to the repository, here's a quick guide:
 
 1. Fork the repository
-2. Create a feature or bugfix branch on your forked repository
-3. Develop and test your code changes:
-    * Follow the coding style as documented above and validate it with eslint.
+2. Develop and test your code changes:
+    * Follow the coding style as documented above.
     * Please add one or more tests to validate your changes.
-4. Make sure everything builds/tests cleanly.
-5. Commit your changes.
-6. [Rebase](http://git-scm.com/book/en/Git-Branching-Rebasing) your local
-   changes against the `main` branch.
-7. Push to your fork's branch and submit a pull request to the `main` branch.
+3. Make sure everything builds/tests cleanly.
+4. Commit your changes. Add a descriptive prefix to commits. The list allowed is as below:
+   - `feat` for features
+   - `fix` for bug fixes
+   - `revert` for reversing a change
+   - `docs` for documentation and examples
+   - `style` for formatting and other related changes
+   - `refactor` is self-explanatory
+   - `test` for test case changes
+   - `build` for build changes
+   - `autogen` for any auto-generated code or documentation
+   - `security` for any security fixes and enhancements
+   - `ci` for changes to continuous integration
+   - `chore` is self-explanatory
+5. Push to your fork and submit a pull request to the `main` branch. Include the tests executed in the pull request.
 
 
 ## Generating documentation
@@ -39,35 +48,38 @@ To generate the HTML docs for an SDK component, run `jsdoc` in the directory con
 open index.html
 ```
 
+### License header in source files
+
+Each source file must include a license header for the Apache
+Software License 2.0. Using the SPDX format is the simplest approach.
+e.g.
+
+```
+/*
+Copyright IBM Corp. All Rights Reserved.
+
+SPDX-License-Identifier: Apache-2.0
+*/
+```
+
+### Sign your work
+
+In accordance to the approach used by the Linux® Kernel [community](https://elinux.org/Developer_Certificate_Of_Origin) and described in the [Developer's Certificate of Origin 1.1 (DCO)](https://github.com/hyperledger/fabric/blob/master/docs/source/DCO1.1.txt), we request that each contributor signs off their change by adding a `Signed-off-by` line to each commit message.
+
+Here is an example Signed-off-by line, which indicates that the submitter accepts the DCO:
+
+```
+Signed-off-by: John Doe <john.doe@example.com>
+```
+
+You can include this automatically when you commit a change to your
+local git repository using the following command:
+
+```
+git commit -s
+```
 
 ## Additional Resources
 
 * [General GitHub documentation](https://help.github.com/)
 * [GitHub pull request documentation](https://help.github.com/send-pull-requests/)
-
-
-# Developer's Certificate of Origin 1.1
-
-By making a contribution to this project, I certify that:
-
-(a) The contribution was created in whole or in part by me and I
-   have the right to submit it under the open source license
-   indicated in the file; or
-
-(b) The contribution is based upon previous work that, to the best
-   of my knowledge, is covered under an appropriate open source
-   license and I have the right under that license to submit that
-   work with modifications, whether created in whole or in part
-   by me, under the same open source license (unless I am
-   permitted to submit under a different license), as indicated
-   in the file; or
-
-(c) The contribution was provided directly to me by some other
-   person who certified (a), (b) or (c) and I have not modified
-   it.
-
-(d) I understand and agree that this project and the contribution
-   are public and that a record of the contribution (including all
-   personal information I submit with it, including my sign-off) is
-   maintained indefinitely and may be redistributed consistent with
-   this project or the open source license(s) involved.

@@ -1,4 +1,4 @@
-// Copyright contributors to the IBM Security Verify Privacy SDK
+// Copyright contributors to the IBM Verify Privacy SDK
 // for JavaScript project
 
 /**

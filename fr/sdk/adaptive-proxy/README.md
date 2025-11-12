@@ -1,8 +1,8 @@
-# IBM Security Verify Adaptive Proxy SDK pour JavaScript
+# IBM Verify Adaptive Proxy SDK pour JavaScript
 
 Le Proxy SDK pour JavaScript côté serveur [(Node](https://nodejs.org) ).
-L'objectif de cette bibliothèque est de fournir une interface pour l'authentification des appareils, l'autorisation et l'évaluation des risques à l'aide de IBM Security Verify
-d'authentification, d'autorisation et d'évaluation des risques à l'aide d' IBM Security Verify.
+L'objectif de cette bibliothèque est de fournir une interface pour l'authentification des appareils, l'autorisation et l'évaluation des risques à l'aide de IBM Verify
+d'authentification, d'autorisation et d'évaluation des risques à l'aide d' IBM Verify.
 
 ## Installation
 
@@ -31,7 +31,7 @@ paramètres suivants :
 
 | Paramètre | Type | Description |
 | -------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `tenantUrl` | `string` | L' URL base de votre [IBM Security Verify Tenant](https://iamdevportal.us-east.mybluemix.net/verify/javascript/civ-getting-started/configuring-your-ci-tenant) |
+| `tenantUrl` | `string` | L' URL base de votre [IBM Verify Tenant](https://iamdevportal.us-east.mybluemix.net/verify/javascript/civ-getting-started/configuring-your-ci-tenant) |
 | `clientId` | `string` | L'identifiant de votre application Security Verify  |
 | `clientSecret` | `string` | Le secret de votre application Security Verify  |
 

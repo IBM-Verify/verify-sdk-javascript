@@ -1,7 +1,7 @@
-# IBM Security Verify Privacy SDK for Javascript
+# IBM Verify Privacy SDK for Javascript
 
 Fast, opinionated, simple privacy SDK for [Node](https://nodejs.org)
-that leverages the data privacy & consent engine on IBM Security Verify.
+that leverages the data privacy & consent engine on IBM Verify.
 
 ---
 
@@ -54,7 +54,7 @@ storeConsents = async (req, res) => {
 
 ## Prerequisites
 
-* Sign up for your [IBM Security Verify Tenant](https://docs.verify.ibm.com/verify/docs/signing-up-for-a-free-trial).
+* Sign up for your [IBM Verify Tenant](https://docs.verify.ibm.com/verify/docs/signing-up-for-a-free-trial).
 * If you are not using an OAuth/OIDC application to get a user/delegated token, obtain a privileged access token by configuring an [API client](https://docs.verify.ibm.com/verify/docs/create-api-client) with the following entitlements.
   - Check for data usage approval _to assess the usage of requested data items_
   - Retrieve privacy purposes and associated user's consent _to present a complete user consent experience_

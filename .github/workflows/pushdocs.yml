@@ -39,7 +39,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAGES_API_TOKEN }}
         run: |
-          gh auth login --with-token <<< "$GITHUB_TOKEN"
+          env -u GITHUB_TOKEN gh auth login --with-token <<< "$GITHUB_TOKEN"
       
       - name: Push docs
         run: ${{ github.workspace }}/monorepo/.github/scripts/pushdocs.sh

@@ -34,7 +34,7 @@ git config user.email "shankarv@sg.ibm.com"
 git config user.name "shankarv"
 git remote set-url origin https://${GH_PAGES_TOKEN}@github.com/${PAGES_USER}/${PAGES_REPO}
 
-git diff --no-pager --exit-code
+git diff --exit-code
 if [ $? -eq 0 ]; then
   echo "No changes found."
   git status

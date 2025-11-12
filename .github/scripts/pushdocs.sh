@@ -33,7 +33,8 @@ git config -l | grep 'http\..*\.extraheader' | cut -d= -f1 | \
 git config user.email "shankarv@sg.ibm.com"
 git config user.name "shankarv"
 
-if git diff --exit-code; then
+git diff --no-pager --exit-code
+if [ $? -eq 0 ]; then
   echo "No changes found."
   git status
 else
@@ -50,6 +51,7 @@ else
   git push -u origin $BRANCH_NAME
 
   # create a PR
+  echo "Going to create PR"
   gh pr create \
     --body "" \
     --title "docs(auto): update documentation" \

@@ -1,6 +1,6 @@
-# IBM Security Verify SDK for Javascript
+# IBM Verify SDK for Javascript
 
-This repository is for active development of the IBM Security Verify SDK for Javascript.
+This repository is for active development of the IBM Verify SDK for Javascript.
 
 ## Getting started
 
@@ -9,11 +9,11 @@ To get started with a specific component, see the **README.md** file located in 
 ### Prerequisites
 
 - [node](https://nodejs.org/en) (v16.13.0 or higher)
-- A valid IBM Security Verify tenant or IBM Security Verify Access is required.
+- A valid IBM Verify tenant or IBM Verify Identity Access is required.
 
 ### Components
 
-Releases of all packages are available here: [Releases](https://github.com/ibm-security-verify/verify-sdk-javascript/tags)
+Releases of all packages are available here: [Releases](https://github.com/ibm-verify/verify-sdk-javascript/tags)
 
 The following components are currently offered in the package.
 | Component | Description |

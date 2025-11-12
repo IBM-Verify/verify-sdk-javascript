@@ -1,7 +1,7 @@
 {
   "name": "verify-privacy-examples",
   "version": "0.5.2",
-  "description": "Example apps to demonstrate integration with IBM Security Verify Privacy & Consent",
+  "description": "Example apps to demonstrate integration with IBM Verify Privacy & Consent",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
   "repository": {
     "directory": "sdk/privacy/examples",
     "type": "git",
-    "url": "https://github.com/ibm-security-verify/verify-sdk-javascript"
+    "url": "https://github.com/ibm-verify/verify-sdk-javascript"
   },
   "keywords": [
     "verify",
@@ -21,9 +21,9 @@
   "author": "Vivek Shankar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ibm-security-verify/verify-sdk-javascript/issues"
+    "url": "https://github.com/ibm-verify/verify-sdk-javascript/issues"
   },
-  "homepage": "https://github.com/ibm-security-verify/verify-sdk-javascript/tree/main/sdk/privacy/examples",
+  "homepage": "https://github.com/ibm-verify/verify-sdk-javascript/tree/main/sdk/privacy/examples",
   "dependencies": {
     "dotenv": "^10.0.0",
     "ibm-verify-sdk": "^2.0.5",

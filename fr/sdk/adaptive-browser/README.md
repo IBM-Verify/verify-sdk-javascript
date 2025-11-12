@@ -2,7 +2,7 @@
 ![npm](https://img.shields.io/npm/v/adaptive-browser-sdk.svg?style=plastic)
 ![NPM](https://img.shields.io/npm/l/adaptive-browser-sdk.svg?colorB=blue&style=plastic)
 
-# IBM Security Verify Adaptive Browser SDK (en anglais)
+# IBM Verify Adaptive Browser SDK (en anglais)
 
 L'objectif du SDK du navigateur est de permettre à un développeur de lancer un processus de collecte et de vérifier les données collectées. Le processus de collecte consiste en la collecte par le SDK d'informations sur le dispositif, qui seront attribuées à un identifiant de session et évaluées ultérieurement. Ce SDK doit être utilisé conjointement avec le Proxy SDK, qui sera responsable de l'évaluation de l'identifiant de session lors de l'authentification.
 
@@ -11,7 +11,7 @@ L'objectif du SDK du navigateur est de permettre à un développeur de lancer un
 - Configurez et installez le Proxy SDK sur votre serveur. Pour commencer, consultez la page [Ajouter le SDK proxy à une application](https://docs.verify.ibm.com/verify/docs/developing-a-native-web-application#add-the-proxy-sdk-to-the-application).
 
 ## Installation
-Après avoir configuré le Proxy SDK sur votre serveur, vous pouvez installer le SDK IBM Security Verify Adaptive Browser en clonant ce dépôt ou en l'installant à partir de [npm](https://github.com/npm/cli). Consultez le [SDK Add the web](https://docs.verify.ibm.com/verify/docs/developing-a-native-web-application#add-the-proxy-sdk-to-the-application) pour obtenir un guide détaillé.
+Après avoir configuré le Proxy SDK sur votre serveur, vous pouvez installer le SDK IBM Verify Adaptive Browser en clonant ce dépôt ou en l'installant à partir de [npm](https://github.com/npm/cli). Consultez le [SDK Add the web](https://docs.verify.ibm.com/verify/docs/developing-a-native-web-application#add-the-proxy-sdk-to-the-application) pour obtenir un guide détaillé.
 
 ```bash
 npm install @ibm-verify/adaptive-browser

@@ -26,11 +26,19 @@ jobs:
         env:
           IS_PRERELEASE: ${{ github.event.release.prerelease }}
         run: |
+          echo "Update npm"
+          npm install -g npm@latest
+
           TAG=${GITHUB_REF:10}
           echo "Processing tag: $TAG"
           MODULE=`echo "$TAG" | sed -e 's/@ibm-verify\/\([a-zA-Z].*\)@.*$/\1/'`
           # This step would fail if module is not a valid sdk 
           cd ${GITHUB_WORKSPACE}/sdk/${MODULE}
+        
+          echo "Building package"
+          npm ci
+          npm run build --if-present
+
           if [ "$IS_PRERELEASE" = "true" ]; then
             echo "It's a pre-release."
             npm publish --dry-run --access public

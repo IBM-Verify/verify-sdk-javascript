@@ -3,6 +3,10 @@ name: Publish packages to NPM
 on:
   release:
     types: [created]
+  push:
+    branches:
+      - develop
+      - main
 
 permissions:
   id-token: write
@@ -16,14 +20,15 @@ jobs:
       contents: read
       packages: write 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       # Setup .npmrc file to publish
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v4
         with:
-          node-version: '16.x'
+          node-version: 20
           registry-url: 'https://registry.npmjs.org'
       - name: Publish package to NPM
         env:
+          EVENT_TYPE: ${{ github.event_name }}
           IS_PRERELEASE: ${{ github.event.release.prerelease }}
         run: |
           echo "Update npm"
